@@ -1,0 +1,151 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[top=0.2in, bottom=0.2in, left=0.1in, right=0.15in]{geometry}
+
+\usepackage{graphicx} 
+
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{enumitem}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.82}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.4cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.99\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+% Blank white space for the header to be added by placement team
+%   \hspace{0.1em}\\ % also use up a newline
+%   \vspace{2.7cm}\\ % the remaining free space.
+
+% Dummy header is written here, just for example  in between the tags:  \iffalse and \fi .. 
+% \iffalse 
+\begin{table}
+    \begin{minipage}{0.15\linewidth}
+        \centering
+        \includegraphics[height =0.8in]{ccetLogoBlack (2).png}
+    \end{minipage}
+    \begin{minipage}{0.45\linewidth}
+        %\centering
+        \setlength{\tabcolsep}{15pt}
+        \def\arraystretch{1.15}
+        \begin{tabular}{ll}
+            \usepackage{hyperref}{\Large{Saksham Kaushik}}  & \textbf{Phone: +91-  7009887682} \\
+            \textbf{Computer Science Engineering} & \textbf{E-mail: sakshamkaushik3047@gmail.com} \\
+        Chandigarh College Of Engineering \& Technology  &  \textbf{LinkedIn: linkedin.com/in/sakshamkaushik}  \\
+        \textbf{} & \textbf{Github: https://github.com/sakshamxkaushik}
+        \end{tabular}
+    \end{minipage}
+\end{table}    
+
+\setlength{\tabcolsep}{18pt}
+\begin{table}
+\centering
+\begin{tabular}{lllll}
+\toprule
+\textbf{Education}   & \textbf{Institute}    & \textbf{Year}     & \textbf{CGPA/\%} \\ 
+\toprule
+Bachelor Of Engineering      & Chandigarh College Of Engineering & 2020-24   & 7.04(Presently)\\ 
+(B.E CSE) & and Technology\\
+Intermediate/+2     & ISDS Sr. Sec. School & 2018-20& 60\%    \\ 
+Matriculation   & A.K.S.I.P.S 41    & 2017-18         & 60.00    \\
+\bottomrule 
+\end{tabular}
+\end{table}
+% \fi
+\noindent
+\resheading{\textbf{PROFESSIONAL SUMMARY}}\\[-0.4cm]
+\vspace{0.3cm}
+\\
+ I am ...
+\\
+\noindent
+
+\noindent
+\resheading{\textbf{INTERNSHIP \& PROJECT}}\\[-0.3cm]
+\begin{itemize}
+    \item \textbf{Real Estate Price Prediction,} \textbf{NITTTR,} \textit{ Sector 26, Chandigarh} \hfill \textit{(June'22 - July'22)}
+    \begin{itemize}
+        \item I leveraged machine learning algorithms to analyze historical property data and accurately forecast future prices.
+        \item By utilizing feature engineering techniques and employing regression models.
+        \item This project showcased my expertise in data analysis, predictive modeling, and the ability to extract valuable insights from complex datasets.
+    \end{itemize}
+        \item \textbf{Project Title 3,} \textit{CS XXX} \hfill \textit{(Jan'20 - May'20)}
+    \begin{itemize}
+        \item Description
+    \end{itemize}
+        \item \textbf{Responsive Website} \textbf{ - IPD, CCET}  \hfill \textit{(June'21 - July'21)}
+    \begin{itemize}
+        \item With a focus on user experience and modern design principles, I created a visually appealing and functional website that seamlessly adapts to different screen sizes using AngularJS.
+    \end{itemize}
+\end{itemize}
+
+\noindent
+\resheading{\textbf{POSITION OF RESPONSIBILITY}}\\[-0.3cm]
+\begin{itemize}
+    \item \textbf{Design Head | \textit{Training \& Placement Cell, CCET}} \hfill 
+    \textit{(Jan'20 - May'20)}
+    \begin{itemize}
+        \item I spearheaded the creative direction and visual branding of the organization with a keen eye  for aesthetics and a deep understanding of market trends.
+        \item I consistently delivered innovative design solutions that elevated the college's reputation among students and employers alike.
+    \end{itemize}
+   
+    
+    
+\end{itemize}
+\noindent
+\resheading{\textbf{PROFESSIONAL SKILLS}}\\[-0.3cm]
+    \begin{itemize}
+        \setlength\itemsep{-0.3em}
+         \item \textbf{Coursework :} Data Structures and Algorithms, Computer Networks, Database Management, Operating Systems, Object-oriented Programming, Machine learning
+        \item \textbf{Programming \& Scripting Languages:}  C, C++, Java, Ruby, Python, HTML, CSS, JavaScript
+        \item \textbf{Tools \& Libraries:} MATLAB, LATEX, OpenCV, ReactJS, AngularJS, Linux Command \& Shell Scripting
+         \item \textbf{Database :} MySQL, SQLite
+    \end{itemize} 
+  
+\noindent
+\resheading{HONOURS \& AWARDS}\\[-0.3cm]
+\begin{itemize}
+    \setlength\itemsep{-0.3em}
+    \item \textbf{Participated as in speaker in the Debating competition organized by NLUJ}
+   \item \textbf{Participated in the SIH-2022 Internal Hackathon} 
+\item \textbf {Google Cloud | Earn Cloud Security Challenge: Level 2}
+\end{itemize}
+
+\noindent
+\resheading{\textbf{EXTRA-CURRICULAR}}\\[-0.3cm]
+\begin{itemize}
+\setlength\itemsep{-0.3em}
+    \item \textbf{Executive member of  Art Strong, Art Club of CCET}
+    \item \textbf{Campus Swimmer Panjab University}
+\end{itemize}
+
+\end{document}
